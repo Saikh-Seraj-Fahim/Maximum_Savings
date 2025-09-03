@@ -95,15 +95,15 @@ export default function Fashion() {
 
             <div className="flex flex-col lg:flex-row items-center justify-center gap-8 pt-11">
                 {/*Card*/}
-                <UserLandingPageCard imageName="fashion1" descriptionBoldText="Paucek and Lage –"
+                <UserLandingPageCard imageName="fashion_style" descriptionBoldText="Paucek and Lage –"
                     descriptionLightText="Happy World Rainforest Day 🌿" descriptionFont={interFont} buttonName="Redeem"
                     buttonFont={montSerrat} bookMarkIcon="bookmark" />
 
-                <UserLandingPageCard imageName="fashion2" descriptionBoldText="Paucek and Lage –"
+                <UserLandingPageCard imageName="black_friday" descriptionBoldText="Paucek and Lage –"
                     descriptionLightText="Happy World Rainforest Day 🌿" descriptionFont={interFont} buttonName="Redeem"
                     buttonFont={montSerrat} bookMarkIcon="bookmark" />
 
-                <UserLandingPageCard imageName="fashion3" descriptionBoldText="Paucek and Lage –"
+                <UserLandingPageCard imageName="autumn_fashion_sale" descriptionBoldText="Paucek and Lage –"
                     descriptionLightText="Happy World Rainforest Day 🌿" descriptionFont={interFont} buttonName="Redeem"
                     buttonFont={montSerrat} bookMarkIcon="bookmark" />
             </div>
