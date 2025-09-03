@@ -5,15 +5,15 @@ import Image from "next/image";
 
 const montSerrat = Montserrat({
     subsets: ["latin"],
-    weight: "400",
+    weight: ["400", "500", "600", "700", "800", "900"]
 });
 const mrDafoe = Mr_Dafoe({
     subsets: ["latin"],
-    weight: "400",
+    weight: "400"
 });
 const interFont = Inter({
     subsets: ["latin"],
-    weight: "400"
+    weight: ["400", "500", "600", "700", "800", "900"]
 });
 
 export default function NavAndHero() {
@@ -24,7 +24,7 @@ export default function NavAndHero() {
             </div>
             <nav className="flex justify-between pl-30 pr-30 pt-10">
                 <div className="text-black flex gap-6">
-                    <p className={`${mrDafoe.className} text-[#00308F]`}>Logo</p>
+                    <p className={`${mrDafoe.className} text-[#00308F] text-3xl -translate-y-1/4`}>Logo</p>
                     <p className={`${montSerrat.className}`}>Home</p>
                     <p className={`${montSerrat.className}`}>How It Works</p>
                     <p className={`${montSerrat.className}`}>Discover savings</p>

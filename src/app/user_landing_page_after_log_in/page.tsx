@@ -1,5 +1,7 @@
 import BrowseCategories from "@/components/BrowseCategories";
 import Fashion from "@/components/Fashion";
+import Finance from "@/components/Finance";
+import HomeAndLifestyle from "@/components/HomeAndLifestyle";
 import NavAndHero from "@/components/NavAndHero";
 import Travels from "@/components/Travels";
 
@@ -9,7 +11,9 @@ export default function UserLandingPageAfterLogIn() {
             <NavAndHero />
             <BrowseCategories />
             <Fashion />
-            <Travels/>
+            <Travels />
+            <HomeAndLifestyle />
+            <Finance />
         </div>
     );
 }

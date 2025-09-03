@@ -4,7 +4,7 @@ import { Montserrat } from "next/font/google";
 
 const interFont = Inter({
     subsets: ["latin"],
-    weight: "400"
+    weight: ["400", "500", "600", "700", "800", "900"]
 });
 const montSerrat = Montserrat({
     subsets: ["latin"],
@@ -14,7 +14,7 @@ const montSerrat = Montserrat({
 export default function BrowseCategories() {
     return (
         <div className="pt-22 flex flex-col items-center justify-center gap-8">
-            <h1 className={`text-[#00308F] font-black text-5xl ${interFont.className}`}>Browse Categories</h1>
+            <h1 className={`text-[#00308F] font-bold text-5xl ${interFont.className}`}>Browse Categories</h1>
             <div className="flex flex-col items-center justify-center">
                 <p className={`text-[#000000] ${montSerrat.className}`}>Must see offers from some of Blue Light Card
                     members' best-loved</p>

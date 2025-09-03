@@ -31,4 +31,3 @@ export default function UserLandingPageCard({ imageName, descriptionBoldText, de
     );
 }
 
-//kkk

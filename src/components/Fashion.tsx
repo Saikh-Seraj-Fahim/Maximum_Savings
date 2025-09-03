@@ -91,9 +91,9 @@ const montSerrat = Montserrat({
 export default function Fashion() {
     return (
         <div className="flex flex-col items-center justify-center pt-22">
-            <h1 className={`text-[#000000] font-extrabold text-5xl ${interFont.className}`}>Fashion</h1>
+            <h1 className={`text-[#000000] font-bold text-5xl ${interFont.className}`}>Fashion</h1>
 
-            <div className="flex items-center justify-center gap-8 pt-11">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-8 pt-11">
                 {/*Card*/}
                 <UserLandingPageCard imageName="fashion1" descriptionBoldText="Paucek and Lage –"
                     descriptionLightText="Happy World Rainforest Day 🌿" descriptionFont={interFont} buttonName="Redeem"
