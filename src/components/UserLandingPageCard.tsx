@@ -14,7 +14,7 @@ export default function UserLandingPageCard({ imageName, descriptionBoldText, de
     buttonName, buttonFont, bookMarkIcon }: CardType) {
 
     return (
-        <div className="w-[352px] h-[313px] border-2 z-30">
+        <div className="max-w-[352px] h-[313px] border-2 z-30">
             <div className="w-full h-[60%]">
                 <Image src={`/${imageName}.jpg`} alt={`imageName`} width={352} height={187} />
             </div>
