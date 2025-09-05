@@ -15,8 +15,8 @@ export default function UserLandingPageCard({ imageName, descriptionBoldText, de
 
     return (
         <div className="max-w-[352px] h-[313px] border-2 z-30">
-            <div className="w-full h-[60%]">
-                <Image src={`/${imageName}.jpg`} alt={`imageName`} width={352} height={187} />
+            <div className="w-full h-[60%] relative">
+                <Image src={`/${imageName}.jpg`} alt={`imageName`} fill />
             </div>
             <div className="w-full h-[40%] pl-6">
                 <p className={`text-[#000000] font-bold pt-2 ${descriptionFont.className}`}>
